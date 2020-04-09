@@ -1,5 +1,5 @@
 {% set name = "nevergrad" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.0.post3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7abe1a6929ee628986db1c71593dfdb25659072ccce1a40416b0e13de2af51ad
+  sha256: bdc3d0e7430e7a8d338d516eeb17eb7923f06ba66e2277d599661a3c06d6fa5d
 
 build:
   noarch: python
@@ -52,7 +52,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "A Python toolbox for performing gradient-free optimization"
+  summary: A Python toolbox for performing gradient-free optimization
   doc_url: https://facebookresearch.github.io/nevergrad/
   dev_url: https://github.com/facebookresearch/nevergrad
 
