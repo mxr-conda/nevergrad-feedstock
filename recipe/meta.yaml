@@ -1,5 +1,5 @@
 {% set name = "nevergrad" %}
-{% set version = "0.4.1.post4" %}
+{% set version = "0.4.1.post5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bd4b896a629d2817a74043113eccab66850dfd23d6cb9253248db92bb6c6dc44
+  sha256: 6cb2b07bbaa2357dc891596b8728611d562049feee889b806b6c1c31ca078292
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
     - requests
     - matplotlib-base
     - Pillow
+    - pyproj
 
 test:
   imports:
