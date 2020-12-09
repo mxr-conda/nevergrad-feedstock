@@ -33,6 +33,7 @@ requirements:
     - pyproj
     - torchvision
     - mixsimulator
+    - IOHexperimenter
 
 test:
   imports:
