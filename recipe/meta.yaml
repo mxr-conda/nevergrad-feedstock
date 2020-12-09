@@ -32,6 +32,7 @@ requirements:
     - Pillow
     - pyproj
     - torchvision
+    - mixsimulator
 
 test:
   imports:
