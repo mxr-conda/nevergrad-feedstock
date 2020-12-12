@@ -5,11 +5,13 @@ Home: https://github.com/facebookresearch/nevergrad
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nevergrad-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python toolbox for performing gradient-free optimization
 
+Development: https://github.com/facebookresearch/nevergrad
 
+Documentation: https://facebookresearch.github.io/nevergrad/
 
 Current build status
 ====================
