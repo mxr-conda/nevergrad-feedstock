@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - bayesian-optimization >=1.1.0
     - cma >=2.6.0
     - numpy >=1.15.0
