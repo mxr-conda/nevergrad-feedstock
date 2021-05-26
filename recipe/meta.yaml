@@ -37,6 +37,7 @@ requirements:
     - opencv
     - image-quality
     - lpips
+    - prophet
 
 test:
   imports:
