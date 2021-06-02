@@ -1,5 +1,5 @@
 {% set name = "nevergrad" %}
-{% set version = "0.4.2.post5" %}
+{% set version = "0.4.3.post2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9450e7cc3bf86a54877d1e346b275fa9d62b9be9a068fd5812eeb01a0adcf9c7
+  sha256: 9bd0299b4ceb2ba29deec7247fe167faf64922c511531e92bdaf55f1f5f8912f
 
 build:
   noarch: python
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - bayesian-optimization >=1.1.0
     - cma >=2.6.0
     - numpy >=1.15.0
@@ -34,6 +34,13 @@ requirements:
     - torchvision
     - mixsimulator
     - iohexperimenter
+    - opencv
+    - image-quality
+    - lpips
+    - prophet
+    - fcmaes
+    - koncept
+    - cdt
 
 test:
   imports:
