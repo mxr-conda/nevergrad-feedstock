@@ -38,6 +38,9 @@ requirements:
     - image-quality
     - lpips
     - prophet
+    - fcmaes
+    - koncept
+    - cdt
 
 test:
   imports:
