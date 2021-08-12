@@ -1,5 +1,5 @@
 {% set name = "nevergrad" %}
-{% set version = "0.4.3.post4" %}
+{% set version = "0.4.3.post7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1bfe6efcc7096ab74f438a3aac9dfc8ad68dba81a22640a51566bf648ec30eca
+  sha256: 92c304349d7df9b65dd33d789547bb2178b5d82c014aaeb4bc5cdda9949b80d2
 
 build:
   noarch: python
